@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <EditText
+        android:id="@+id/isbnInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/isbn"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIsbnInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/create"
+        app:layout_constraintStart_toStartOf="@+id/isbnInput"
+        app:layout_constraintTop_toBottomOf="@+id/isbnInput" />
+
+    <TextView
+        android:id="@+id/textViewH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Click the button to create a book"
+        app:layout_constraintStart_toStartOf="@+id/btnIsbnInput"
+        app:layout_constraintTop_toBottomOf="@+id/btnIsbnInput" />
+
+    <Button
+        android:id="@+id/viewAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_all"
+        app:layout_constraintStart_toStartOf="@+id/textViewH"
+        app:layout_constraintTop_toBottomOf="@+id/textViewH" />
+
+    <TextView
+        android:id="@+id/allBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Click the button to create a book"
+        app:layout_constraintStart_toStartOf="@+id/viewAllButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewAllButton" />
+
+</android.support.constraint.ConstraintLayout>

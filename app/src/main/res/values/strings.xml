@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExternalConnection</string>
+    <string name="projeto">Projeto</string>
+    <string name="adicionar">adicionar</string>
+    <string name="total_de_registros">Total de Registros</string>
+    <string name="primeiro_nome">primeiro nome</string>
+    <string name="sobrenome">sobrenome</string>
+    <string name="email">email</string>
+    <string name="isbn">ISBN:</string>
+    <string name="create">create</string>
+    <string name="view_all">view all</string>
+    <string name="todo">TODO</string>
+    <string name="toptreino">TopTreino</string>
+</resources>
