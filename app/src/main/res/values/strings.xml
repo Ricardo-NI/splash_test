@@ -11,4 +11,8 @@
     <string name="view_all">view all</string>
     <string name="todo">TODO</string>
     <string name="toptreino">TopTreino</string>
+    <string name="sign_out">sign out</string>
+    <string name="facebook_app_id">2184454641598187</string>
+    <string name="fb_login_protocol_scheme">fb2184454641598187</string>
+
 </resources>
